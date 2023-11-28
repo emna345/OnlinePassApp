@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+    <title>RESEAU METRO</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet"  href="style4.css">
+  
+
+
+
+</head>
+<body>
+<h1>RESEAU Métro</h1>
+<h2>Ajouter une image:</h2>
+<fieldset>
+  <legend>Photo d'identité<span style="color: #917d7d;">*&nbsp;</span></legend>
+    <div id="tabs-2">
+      <div style="float:left">
+        <img src="http://www.isimg.rnu.tn/images/no-picture-small.gif" alt="Image profile" width="100" height="100" style="border:1px dashed #aaa" />
+      </div>
+      <div style="float:right;width:80%">
+        <form  name="imageProfil" id='imageProfil' method="post" action="#" enctype="multipart/form-data">
+          <span>L'image doit respecter les standards de la photo de carte d’identité Internationale. Elle doit être de type jpg, jpeg, png ou gif</span>
+          <br><br>
+          <input type="file" name="f_profil_image" id="f_profil_image">
+          <br><br>
+          <input type="submit" value="Envoyer" class="#">
+          <input type="hidden" name="imageProfil" >
+          
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div></fieldset>
+    <form>
+<h2>Le ligne</h2>
+
+  <input class="radio-one" type="radio" name="">
+  LIGNE1 <br>
+
+
+  <input class="radio-two" type="radio" name="">
+  LIGNE2 <br>
+
+
+  <input class="radio3" type="radio" name="">
+  LIGNE3 <br>
+
+
+  <input class="radio4" type="radio" name="">
+  LIGNE4 <br>
+
+
+  <input class="radio5" type="radio" name="">
+  LIGNE5 <br>
+
+
+  <input class="radio6" type="radio" name="">
+  LIGNE6 <br>
+
+
+  <input class="radio7" type="radio" name="">
+  TGM<br>
+
+  <input class="radio8" type="radio" name="">
+  Réseau général 
+
+
+<h2>Durée:</h2>
+<select class="option" name="reseau">
+<option>1 mois</option>
+<option>3 mois</option>
+<option>6 mois</option>
+<option>1 ans</option>
+
+</select>
+<h2>payé :</h2>
+<input type="number" placeholder="DT">
+
+<h2 id="pay">Paiement</h2>
+<label class="radiol">
+  <img src="C:\Users\emna\Desktop\TRANSTU\d17.jpg">
+  <input class="radi" type="radio" name="">
+ 
+</label>
+<label class="radiol">
+  <img src="C:\Users\emna\Desktop\TRANSTU\bank.jpg">
+  <input class="rad" type="radio" name="">
+  
+</label>
+<label class="radiol">
+  <img src="C:\Users\emna\Desktop\TRANSTU\light.jpg">
+  <input class="radioo" type="radio" name="">
+  
+</label>
+<button type="submit">Envoyer</button>
+<button type="reset">Annuler</button>
+<a href="pagesuiv.html">
+  <button>Retour</button>
+</a>
+
+</form>   
+</body>
+</html>

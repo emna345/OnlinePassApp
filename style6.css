@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgba(0, 0, 0, 0.456);
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.581)) ,url("money-gfb93c5f8c_1920.jpg");
+   
+}
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    color: aliceblue;
+}
+
+.container h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 255, 128, 0.633);
+    font-size: 25px;
+
+}
+
+.first-row{
+     display: flex;
+     color: aliceblue;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+    color: aliceblue;
+}
+
+.input-field{
+    border: 1px solid #999;
+    color: aliceblue;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    color: aliceblue;
+}
+h3{
+    font-size: 14px;
+    color: antiquewhite;
+    font-family: Lucida Fax;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.selection select{
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+a{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+    background-color:rgba(0, 255, 128, 0.633);;
+}
+
+a:hover{
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+.cards img{
+    width: 100px;
+    border: 10px solid;
+    color: #313544;;
+}

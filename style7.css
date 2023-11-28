@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgba(0, 0, 0, 0.474);
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.518),rgba(0, 0, 0, 0.392)) ,url("money-gfb93c5f8c_1920.jpg");
+   
+}
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    color: aliceblue;
+}
+
+.container h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 255, 128, 0.521);;
+    font-size: 25px;
+}
+
+.first-row{
+     display: flex;
+     color: aliceblue;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 50px;
+    color: aliceblue;
+
+}
+.cvv{
+    width: 100%;
+    margin-right: 2px;
+    color: aliceblue;
+
+}
+
+.input-field{
+    border: 1px solid #999;
+    color: rgb(233, 233, 233);
+}
+h3{
+    font-size: 14px;
+    color: antiquewhite;
+    font-family: Lucida Fax;
+}
+.input-field select{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    color: rgb(43, 85, 127);
+}
+input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.selection select{
+    padding: 10px 20px;
+}    
+a{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.5s;
+    background-color:rgba(0, 255, 128, 0.633);
+}
+
+a:hover{
+    background-color: rgba(30, 143, 255, 0.468);
+    color: aliceblue;
+}
+
+#image{
+    width: 665px;
+    border: 5px solid;
+   color: #999;
+}
+form input {
+    color: rgb(255, 255, 255);
+    background-color: rgba(15, 15, 15, 0.604);
+}

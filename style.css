@@ -1,0 +1,178 @@
+#tete1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #048a6d;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#navbar li{
+
+	list-style: none;
+	padding: 0px 20px;
+	position: relative;
+    font-family:Book Antiqua;
+    font-style: italic;
+	font-weight: bold;
+}
+#navbar li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+
+	color:  #fff;
+
+
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+	content: "";
+	width:30%;
+	height:2px ;
+	background:#9cee04 ;
+	position: absolute;
+	bottom:-4px;
+	left:20px;
+}
+
+#tete2{
+	background-image:url("C:/Users/emna/Desktop/TRANSTU/aa.jpg");
+	width: 1333px ;
+	height: 80vh;
+	 background-size: cover;
+	 background-position:center;
+	 color: #ffffff;
+	 display: flex;
+	 flex-direction: column; 
+	 align-items:center;
+	 justify-content: center;
+
+}
+#tete2 h1{
+text-decoration: underline rgb(14, 155, 96);	
+color: #ffffff;
+font-family:Bell MT;
+}
+#tete2 h2{
+text-decoration: underline rgb(6, 131, 62);
+color:#fff;
+font-size: 2rem;
+font-weight: normal;
+}
+#tete2 button {
+	
+	width: 180px;
+	color: #fff;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #048a6d;
+	border: 0;
+	border-radius: 30px;
+	outline: none;
+	margin-top:  30px;
+
+
+}
+#footer {
+    background: #f3f2f2f5;
+	height: auto;
+	width:100vw;
+    padding-top: 30px;
+    color: #151313;
+    font-size: 12px;
+    font-family: 'CenturyGothic';
+}
+.coordonner    {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 255px;
+    width: 1300px;
+
+}
+
+.coordonner h3 {
+    
+    font-size: 18px;
+
+    text-transform: capitalize;
+	line-height: 3rem;
+	color: #0f66ad;
+    font-family: "CenturyGothic";
+    
+    font-weight: 400;
+    font-size: 1.8rem;
+	
+}
+
+.coordonner p {
+	max-width: 500px;
+    margin:10px auto;
+	line-height:28px;
+	font-size:14px;
+   
+}
+.social{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:1rem 0 3rem 0;
+}
+.social li{
+	margin: 0 10px;
+}
+.social a{
+	text-decoration: none;
+	transition: color .4s ease;
+}
+.social a i{
+	font-size: 1.1rem;
+
+}
+.social a:hover i{
+	color:#151313;
+}
+.footer-bottom{
+	background: #151313;
+	width: 100vw;
+	padding: 2px 0;
+	text-align: center;
+}
+.footer-bottom p{
+	color: azure;
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+	
+}
+
+
+#logo-footer {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+#logo-footer img{
+	width: 12px;
+	height: 12px;
+}
+
